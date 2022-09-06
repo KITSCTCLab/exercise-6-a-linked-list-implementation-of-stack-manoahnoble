@@ -13,7 +13,7 @@ class Stack:
     if self.head is None:
         new_node = Node(data)
         self.head = new_node
-      else:
+    else:
         new_node = Node(data)
         new_node.next = self.head
         self.head = new_node
